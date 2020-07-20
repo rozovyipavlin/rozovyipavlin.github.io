@@ -55,7 +55,7 @@ body {
   text-decoration: underline;
 }
 main {
-  min-height: 87vh;
+  min-height: calc(100vh - 50px);
 }
 .catalogTitle {
   text-align: center;
