@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+html,
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.headTitle {
+  color: white;
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
+.containerTitle {
+  color: black;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 0 3px 0;
+}
+.miniTitle {
+  color: black;
+  font-size: 1.4rem;
+  margin: 15px 0 0 20px;
+}
+.container {
+  background: rgb(245, 245, 245);
+  width: 80vw;
+  margin-top: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+}
+.flexBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.flexCard {
+  width: 16rem;
+  margin: 30px 15px 0 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease-in-out;
+}
+
+.footer {
+  background: rgb(255, 129, 171);
+  position: relative;
+  bottom: 0;
+  padding: 10px;
+  height: 50px;
+  margin-top: 30px;
+}
+.siteLink {
+  color: black;
+  text-decoration: underline;
+}
+.metrics {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: 20px;
+  background-color: wheat;
+}
+main {
+  min-height: 87vh;
+}
+.catalogTitle {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0;
+}
+.pay::before {
+  content: "- ";
+}
+.iconHeader {
+  display: inline-block;
+  margin-left: 5px;
+}
+.contactHeader {
+  text-align: center;
+  border: none;
+  background: none;
+}
+.iconWraper {
+  border: rgb(187, 187, 187) solid 1px;
+  background-color: rgb(240, 240, 240);
+  padding: 0 0 10px 10px;
+}
+.contacts {
+  font-size: 1.1rem;
+  line-height: 60px;
+}
+.list {
+  padding: 10px;
+}
+.ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 30px;
+}
+.btnLink {
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(255, 129, 171);
+  font-size: 1rem;
+  margin-left: 15px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  transition: 0.5s ease-in-out;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+@media (min-width: 600px) {
+  .btnLink {
+    width: 110px;
+    font-size: 1.2rem;
+  }
+  .contacts {
+    font-size: 1.2rem;
+    line-height: 80px;
+  }
+  .pay {
+    line-height: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .contactHeader {
+    text-align: left;
+  }
+  .miniTitle {
+    font-size: 1.75rem;
+  }
+  .ul {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  .btnLink:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: #30363c;
+    transition: 0.5s ease-in-out;
+  }
+  .flexCard:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease-in-out;
+  }
+}
+@media (min-width: 1440px) {
+  .flexCard {
+    width: 21rem;
+  }
+}
